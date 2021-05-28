@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Passenger Details</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet"/>
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/responsive.css" rel="stylesheet">
+
+        <!-- Other CSS Link -->
+        <link href="css/slimmenu.min.css" rel="stylesheet">
+
+        <!-- Font Family -->
+        <link rel="stylesheet" href="font/font-awesome/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    </head>
+    <body>
+        <div class="main-wrapper">
+            
+            <!-- passenger-detail -->
+            <section class="passenger-detail">
+                <div class="passenger-detail-body" style="min-height: 400px;">
+                    <div class="srp-data">
+                        <div class="page-overlay">
+                            <div class="passenger-detail-inner slidein">
+                                <div class="passenger-header d-flex">
+                                    <i class="material-icons">arrow_forward_ios</i> 
+                                    <h4 class="passenger-maintitle">Passenger Details</h4>
+                                </div>
+                                <div class="passenger-container">
+                                    <div class="passenger-subcomponents">
+                                        <i class="material-icons">account_circle</i>
+                                        <div class="passenger-heading">Passenger Information</div>
+                                    </div>
+                                    <div class="passenger-input-group">
+                                        <div class="passenger-input-group">
+                                            <div class="d-flex passenger-subtitle">
+                                                <span class="passenger-priority">Passenger 1</span>
+                                                <span class="passenger-seatno">Seat 4</span>
+                                            </div>
+                                            <div class="passenger-contact">
+                                                <div class="passenger-contact-container">
+                                                    <label class="input-label">Name</label>
+                                                    <input class="input_box" type="text" placeholder="Name">
+                                                </div>
+                                                <div class="combined-block">
+                                                    <div class="radio_block">
+                                                        <span class="input-label">Gender</span>
+                                                        <div class="radio-container">
+                                                            <span for="22" class="radio_block">
+                                                                <div class="gender_position_rel ">
+                                                                    <div class="gender_position_abs"></div>
+                                                                    <input type="radio" class="radio_btn">
+                                                                    <label class="radio_css">Male</label>
+                                                                </div>
+                                                            </span>
+                                                            <span for="23" class="radio_block">
+                                                                <div class="gender_position_rel">
+                                                                    <div class="gender_position_abs"></div>
+                                                                    <input type="radio" class="radio_btn">
+                                                                    <label class="radio_css">Female</label>
+                                                                </div>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="custinfo_label">
+                                                        <label class="input-label">Age</label>
+                                                        <input class="input_box" type="text" placeholder="Age">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                    <div class="passenger-subcomponents">
+                                        <i class="material-icons" style="color: #f1af43;">email</i>
+                                        <div class="passenger-heading">Contact Details</div>
+                                    </div>
+                                    <div class="passenger-contact-inner">
+                                        <div class="passenger-contact-msg">Your ticket will be sent to these details</div>
+                                        <div class="passenger-contact-container">
+                                            <label class="input-label">Email ID</label>
+                                            <input class="input_box" type="text" placeholder="Email ID">
+                                        </div>
+                                        <div class="passenger-contact-container">
+                                            <label class="input-label">Phone</label>
+                                            <input class="input_box" type="text" placeholder="Phone">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="continue-booking">
+                                    <div class="pptnc-link">By clicking on proceed, I agree that I have read and understood the <a href="#">TnCs</a> and the <a href="#">Privacy Policy</a></div>
+                                    <div class="pR">
+                                        <div class="booking-amt-details">
+                                            <div class="booking-amt-title">Total Amount :</div>
+                                            <div class="booking-amt">INR <span class="f-bold"> 1099.00</span></div>
+                                        </div>
+                                        <div class="button-container">
+                                            <button class="button">Proceed to pay</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="js/jquary.min.js"></script>
+
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.slimmenu.min.js"></script>
+
+        <script>
+            
+            $('.slimmenu').slimmenu({
+                resizeWidth: '767',
+                collapserTitle: '',
+                animSpeed:'medium',
+                indentChildren: true,
+                childrenIndenter: '<i class="fa fa-angle-right"></i>',
+            });
+            
+            // Close Effect Menu
+            $(function() {
+                $('.collapse-button').click(function() {
+                    $('.collapse-button').toggleClass('close-menu');
+                });
+            });
+
+        </script>    
+
+        <script src="js/custom.js"></script>
+    </body>
+</html>

@@ -1,0 +1,709 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Search Bus</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet"/>
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/responsive.css" rel="stylesheet">
+
+        <!-- Other CSS Link -->
+        <link href="css/slimmenu.min.css" rel="stylesheet">
+
+        <!-- Font Family -->
+        <link rel="stylesheet" href="font/font-awesome/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+    </head>
+    <body>
+        <div class="main-wrapper">
+             
+            <!-- header -->
+            <header class="header cp">
+                <div class="container">
+                    <div class="header-inner">
+                        <div class="header-left">
+                            <div class="logo">
+                                <img src="image/log.png" class="logo" alt="logo">
+                            </div> 
+                            <nav class="product-nav">
+                                <ul>
+                                    <li>
+                                        <a href="#" class="active" >BUS TICKETS</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">rPool <sup>New</sup></a>
+                                    </li>
+                                    <li>
+                                        <a href="#">BUS HIRE</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>           
+                        <div class="header-right">
+                            <div class="menu-collapser" style="display: none;">
+                                <div class="collapse-button">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </div>
+                            </div>
+                            <ul class="slimmenu">
+                                <li class="has-submenu">
+                                    <a href="#">Help</a>
+                                </li>
+                                <li class="has-submenu">
+                                    <a href="#">Manage Booking</a>
+                                    <ul class="sub-menu" style="display: none;">
+                                        <li><a href="#">Bus Tickets</a></li>
+                                        <li><a href="#">Cancel</a></li>
+                                        <li><a href="#">Change Travel Date</a></li>
+                                        <li><a href="#">Show My Ticket</a></li>
+                                        <li><a href="#">Email/SMS</a></li>
+                                    </ul>
+                                    <span class="sub-toggle"></span>
+                                </li>
+                                <li class="has-submenu">
+                                    <i class="fa fa-user" aria-hidden="true"></i>
+                                    <ul class="sub-menu" style="display: none;">
+                                        <li><a href="#">Sign In / Sign Up</a></li>
+                                    </ul>
+                                    <span class="sub-toggle sub-mar"></span>
+                                </li>
+                                <li class="m-submenu">
+                                    <a href="#">Sign In / Sign Up</a>
+                                </li>
+                                <li class="m-submenu">
+                                    <a href="#">Search Buses</a>
+                                </li>
+                                <li class="m-submenu">
+                                    <a href="#">Offers</a>
+                                </li>
+                                <li class="m-submenu">
+                                    <a href="#">Refer & Earn</a>
+                                </li>
+                                <li class="m-submenu">
+                                    <a href="#">Help</a>
+                                </li>
+                                <li class="m-submenu">
+                                    <a href="#">Get Ticket Details</a>
+                                </li>
+                                <li class="m-submenu">
+                                    <a href="#">About Us</a>
+                                </li>
+                                <li class="m-submenu">
+                                    <a href="#">Cancel Ticket</a>
+                                </li>
+                                <li class="m-submenu">
+                                    <a href="#">Reschedule Ticket</a>
+                                </li>
+                                <li class="m-submenu">
+                                    <a href="#">Setting</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="m-profile">
+                            <a href="#"><i class="fa fa-user" aria-hidden="true"></i></a>
+                        </div>
+                        
+                    </div>
+                </div>        
+            </header>
+
+            <!-- search-bus-nav Section -->
+            <Section class="search-bus-nav">
+                <div class="row g-0">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="section-headline">
+                            <div class="ticket-info">
+                                <div class="d-flex">
+                                    <div class="to-location dst">
+                                        Mathura<i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="from-loction dst">
+                                        New Delhi
+                                    </div>
+                                </div>
+                                <div class="search-date dst" style="position: relative;">
+                                    <i class="fa fa-angle-left" aria-hidden="true"></i>01 May<i class="fa fa-angle-right" aria-hidden="true"></i>
+                                    <span class="search-day">Sat</span>
+                                </div>
+                                <div class="modify">
+                                    <button class="modify-btn">modify</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </Section>  
+
+            <!-- search-bus-src Section -->
+            <section class="search-bus-src">
+                <div class="filter-block">
+                    <div class="filter">
+                        <div class="filter-title f-bold">
+                            FILTERS
+                        </div>
+                        <div class="filter-inner ">
+                            <ul class="add-filter">
+                                <li class="filter-detail">
+                                    <div class="d-flex align-items-center">
+                                        <i class="material-icons" style="color: #000;">share_location</i>
+                                        Live Tracking (9)
+                                    </div>
+                                    <div class="d-flex" style="color: #ccc;">
+                                        <i class="material-icons">done</i>
+                                    </div>
+                                </li>
+                                <li class="filter-detail">
+                                    <div class="d-flex align-items-center">
+                                        <i class="material-icons" style="color: #000;">local_offer</i>
+                                        Red Deals
+                                    </div>
+                                    <div class="d-flex" style="color: #ccc;">    
+                                        <i class="material-icons">done</i>
+                                    </div>
+                                </li>
+                                <li class="filter-detail">
+                                    <div class="d-flex align-items-center">
+                                        <i class="material-icons" style="color: #000;">restore</i>
+                                        Reschedulable (3)
+                                    </div>
+                                    <div class="d-flex" style="color: #ccc;">
+                                        <i class="material-icons">done</i>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="filter-title f-bold">
+                            DEPARTURE TIME
+                        </div>
+                        <div class="departure-inner">
+                            <ul class="add-departure">
+                                <li class="checkbox">
+                                    <div class="custom-checkbox">
+                                        <label class="label" for="checkbox1">
+                                            <input type="checkbox" id="checkbox1">
+                                            <span class="checkbox-label">Before 6 am (5)</span>
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li class="checkbox">
+                                    <div class="custom-checkbox">
+                                        <label class="label" for="checkbox2">
+                                            <input type="checkbox" id="checkbox2">
+                                            <span class="checkbox-label">6 am to 12 pm (6)</span>
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li class="checkbox">
+                                    <div class="custom-checkbox">
+                                        <label class="label" for="checkbox3">
+                                            <input type="checkbox" id="checkbox3">
+                                            <span class="checkbox-label">12 pm to 6 pm (2)</span>
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li class="checkbox">
+                                    <div class="custom-checkbox">
+                                        <label class="label" for="checkbox4">
+                                            <input type="checkbox" id="checkbox4">
+                                            <span class="checkbox-label">After 6 pm (1)</span>
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="filter-title f-bold">
+                            BUS TYPES
+                        </div>
+                        <div class="bus-type-inner">
+                            <ul class="add-bus-type">
+                                <li class="checkbox">
+                                    <div class="custom-checkbox">
+                                        <label class="label" for="checkbox5">
+                                            <input type="checkbox" id="checkbox5">
+                                            <span class="checkbox-label">SEATER (9)</span>
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li class="checkbox">
+                                    <div class="custom-checkbox">
+                                        <label class="label" for="checkbox6">
+                                            <input type="checkbox" id="checkbox6">
+                                            <span class="checkbox-label">SLEEPER (11)</span>
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li class="checkbox">
+                                    <div class="custom-checkbox">
+                                        <label class="label" for="checkbox7">
+                                            <input type="checkbox" id="checkbox7">
+                                            <span class="checkbox-label">AC (10)</span>
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li class="checkbox">
+                                    <div class="custom-checkbox">
+                                        <label class="label" for="checkbox8">
+                                            <input type="checkbox" id="checkbox8">
+                                            <span class="checkbox-label">NONAC (2)</span>
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="filter-title f-bold">
+                            ARRIVAL TIME
+                        </div>
+                        <div class="arrival-inner">
+                            <ul class="add-arrival">
+                                <li class="checkbox">
+                                    <div class="custom-checkbox">
+                                        <label class="label" for="checkbox9">
+                                            <input type="checkbox" id="checkbox9">
+                                            <span class="checkbox-label">Before 6 am (1)</span>
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li class="checkbox">
+                                    <div class="custom-checkbox">
+                                        <label class="label" for="checkbox10">
+                                            <input type="checkbox" id="checkbox10">
+                                            <span class="checkbox-label">6 am to 12 pm (3)</span>
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li class="checkbox">
+                                    <div class="custom-checkbox">
+                                        <label class="label" for="checkbox11">
+                                            <input type="checkbox" id="checkbox11">
+                                            <span class="checkbox-label">12 pm to 6 pm (2)</span>
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li class="checkbox">
+                                    <div class="custom-checkbox">
+                                        <label class="label" for="checkbox12">
+                                            <input type="checkbox" id="checkbox12">
+                                            <span class="checkbox-label">After 6 pm (5)</span>
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="filter-title f-bold">
+                            BOARDING POINT
+                        </div>
+                        <div class="fil-search">
+                            <i class="material-icons">search</i>
+                            <input type="text" placeholder="BOARDING POINT">
+                        </div>
+                        <div class="filter-title f-bold">
+                            DROPPING POINT
+                        </div>
+                        <div class="fil-search">
+                            <i class="material-icons">search</i>
+                            <input type="text" placeholder="DROPPING POINT">
+                        </div>
+                        <div class="filter-title f-bold">
+                            OPERATOR
+                        </div>
+                        <div class="fil-search">
+                            <i class="material-icons">search</i>
+                            <input type="text" placeholder="OPERATOR">
+                        </div>
+                        <div class="filter-title f-bold">
+                            AMENITIES
+                        </div>
+                        <div class="amenities-inner">
+                            <ul class="add-amenities">
+                                <li class="amenities-detail active">WIFI (1)</li>
+                                <li class="amenities-detail">Water Bottle (5)</li>
+                                <li class="amenities-detail">Charging Point</li>
+                                <li class="amenities-detail">Track My Bus</li>
+                                <li class="amenities-detail">Emergency Contact nu...</li>
+                                <li class="amenities-detail">Toilet</li>
+                            </ul> 
+                        </div>    
+                    </div>
+                </div>
+                <div class="bus-results">
+                    <div class="sort-sec onward">
+                        <div class="w-30" style="display: flex;">
+                            <span class=" db-inline d-found mp">
+                                <span class="f-bold busFound">14 Buses </span>
+                                found
+                            </span>
+                            <span class="w-30 cp db-inline f-12 d-color f-bold t-right">SORT BY:</span>
+                        </div>
+                        <div class="w-10 f-12 d-color cp">
+                            <a>Departure</a>
+                        </div>
+                        <div class="w-10 f-12 d-color cp">
+                            <a>Duration</a>
+                        </div>
+                        <div class="w-10 f-12 d-color cp">
+                            <a>Arrival</a>
+                        </div>
+                        <div class="w-10 f-12 d-color cp">
+                            <a>Ratings</a>
+                        </div>
+                        <div class="w-15 f-12 d-color cp">
+                            <a>Fare</a>
+                        </div>
+                        <div class="w-15 f-12 d-color cp">
+                            <a>Seats Available</a>
+                        </div>
+                    </div>
+
+                    <div class="bus-inner">
+                        <ul class="bus-item">
+                            <div class="cp">
+                                <li class="row-sec">
+                                    <div class="bus-item">
+                                        <div class="bus-item-details">
+                                            <div class="row-one">
+                                                <div class="p-right-10 w-30">
+                                                    <div class="lh-24 f-bold d-color">Expresso </div>
+                                                    <div class="f-12 m-top-16 l-color">A/C Seater / Sleeper (2+2)</div>
+                                                </div>
+                                                <div class="p-right-10 w-10">
+                                                    <div class="dp-time f-19 d-color f-bold">07:15</div>
+                                                    <div class="dp-loc l-color w-wrap f-12 m-top-16 cp">Mathura Bypass Rai Cut</div>
+                                                </div>
+                                                <div class="p-right-10 w-10">
+                                                    <div class="dur l-color lh-24">02h 15m</div>
+                                                </div>
+                                                <div class="p-right-10 w-10">
+                                                    <div class="bp-time f-19 d-color disp-Inline">09:30</div>
+                                                    <div class="bp-loc l-color w-wrap f-12 m-top-16 cp">Anand Vihar</div>
+                                                </div>
+                                                <div class="p-right-10 w-10">
+                                                    <div class="rating-sec lh-24">
+                                                        <div class="lh-18 rating rat-green safety-star-rating-container">
+                                                            <i class="material-icons db-inline safety-star-rating">health_and_safety</i>
+                                                            <span class="">4.3</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="no-ppl m-top-16 l-color d-flex align-items-center">
+                                                        <i class="material-icons db-inline">people</i>
+                                                        7
+                                                    </div>
+                                                </div>
+                                                <div class="p-right-10 w-15">
+                                                    <div class="seat-fare">
+                                                        <div class="starts cp">Starts from </div>
+                                                        <div class="oldFare db-inline">INR 
+                                                            <span class="strike">550</span>
+                                                        </div>
+                                                        <div class="fare db-inline">
+                                                            <span class="f-bold f-19">500</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="reddeals-sec lh-24 m-top-8 l-color d-flex align-items-center cp">
+                                                        <i class="icon-addfil_4 material-icons cp">local_offer</i>
+                                                        <span class="reddeal-txt f-12 cp">redDeal applied</span>
+                                                    </div>
+                                                </div>
+                                                <div class="w-15">
+                                                    <div class="seat-left m-top-16">11
+                                                        <span class="l-color"> Seats <span class="cp">available</span> </span>
+                                                    </div>
+                                                    <div class="window-left m-top-8 cp">1 
+                                                        <span class="l-color"> single</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="m-top-16 d-flex justify-content-end cp">
+                                            <div class="text-end">
+                                                <ul class="bottom-panel d-color">
+                                                    <li class="b-p-list">
+                                                        <span class="txt-val">Safety+</span>
+                                                    </li>
+                                                    <li class="b-p-list">
+                                                        <span class="txt-val">Amenities</span>
+                                                    </li>
+                                                    <li class="b-p-list">
+                                                        <span class="txt-val">Bus Photos</span>
+                                                    </li>
+                                                    <li class="b-p-list">
+                                                        <span class="txt-val">Boarding &amp; Dropping Points</span>
+                                                    </li>
+                                                    <li class="b-p-list">
+                                                        <span class="txt-val">Reviews</span>
+                                                    </li>
+                                                    <li class="b-p-list">
+                                                        <span class="txt-val">Booking policies</span>
+                                                    </li>
+                                                    <li class="b-p-list">
+                                                        <span class="txt-val">Primo</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <a href="view-seats.html"><div class="button view-seats">View Seats</div></a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </div>
+                            <div class="cp">
+                                <li class="row-sec">
+                                    <div class="bus-item">
+                                        <div class="bus-item-details">
+                                            <div class="row-one">
+                                                <div class="p-right-10 w-30">
+                                                    <div class="lh-24 f-bold d-color">JGD Travels Pvt Ltd. </div>
+                                                    <div class="f-12 m-top-16 l-color">A/C Seater / Sleeper (2+2)</div>
+                                                </div>
+                                                <div class="p-right-10 w-10">
+                                                    <div class="dp-time f-19 d-color f-bold">10:15</div>
+                                                    <div class="dp-loc l-color w-wrap f-12 m-top-16 cp">Mathura Bypass Rai Cut</div>
+                                                </div>
+                                                <div class="p-right-10 w-10">
+                                                    <div class="dur l-color lh-24">02h 30m</div>
+                                                </div>
+                                                <div class="p-right-10 w-10">
+                                                    <div class="bp-time f-19 d-color disp-Inline">12:30</div>
+                                                    <div class="bp-loc l-color w-wrap f-12 m-top-16 cp">Anand Vihar</div>
+                                                </div>
+                                                <div class="p-right-10 w-10">
+                                                    <div class="rating-sec lh-24">
+                                                        <div class="lh-18 rating rat-red safety-star-rating-container">
+                                                            <i class="material-icons db-inline safety-star-rating">health_and_safety</i>
+                                                            <span class="">4.6</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="no-ppl m-top-16 l-color d-flex align-items-center">
+                                                        <i class="material-icons db-inline">people</i>
+                                                        5
+                                                    </div>
+                                                </div>
+                                                <div class="p-right-10 w-15">
+                                                    <div class="seat-fare">
+                                                        <div class="starts cp">Starts from </div>
+                                                        <div class="oldFare db-inline">INR 
+                                                            <span class="strike">500</span>
+                                                        </div>
+                                                        <div class="fare db-inline">
+                                                            <span class="f-bold f-19">470</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="reddeals-sec lh-24 m-top-8 l-color d-flex align-items-center">
+                                                        <i class="icon-addfil_4 material-icons cp">local_offer</i>
+                                                        <span class="reddeal-txt f-12 cp">redDeal applied</span>
+                                                    </div>
+                                                </div>
+                                                <div class="w-15">
+                                                    <div class="seat-left m-top-16">15
+                                                        <span class="l-color"> Seats <span class="cp">available</span></span>
+                                                    </div>
+                                                    <div class="window-left m-top-8 cp">3
+                                                        <span class="l-color cp"> single</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="m-top-50 d-flex justify-content-end cp">
+                                            <div class="text-end">
+                                                <ul class="bottom-panel d-color">
+                                                    <li class="b-p-list">
+                                                        <span class="txt-val">Safety+</span>
+                                                    </li>
+                                                    <li class="b-p-list">
+                                                        <span class="txt-val">Amenities</span>
+                                                    </li>
+                                                    <li class="b-p-list">
+                                                        <span class="txt-val">Bus Photos</span>
+                                                    </li>
+                                                    <li class="b-p-list">
+                                                        <span class="txt-val">Boarding &amp; Dropping Points</span>
+                                                    </li>
+                                                    <li class="b-p-list">
+                                                        <span class="txt-val">Reviews</span>
+                                                    </li>
+                                                    <li class="b-p-list">
+                                                        <span class="txt-val">Booking policies</span>
+                                                    </li>
+                                                    <li class="b-p-list">
+                                                        <span class="txt-val">Primo</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                           <a href="view-seats.html"><div class="button view-seats">View Seats</div></a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </div>
+                            <div class="m-row-sec">
+                                <li class="row-sec">
+                                    <div class="bus-item">
+                                        <div class="bus-item-details">
+                                            <div class="row-one">
+                                                <div>
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <div class="dp-time f-19 d-color f-bold">10:15 - </div>
+                                                        </div>
+                                                        <div>
+                                                            <div class="bp-time f-19 d-color disp-Inline">12:30</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <div class="dur">02h 30m - </div>
+                                                        </div>
+                                                        <div>
+                                                            <div class="seat-left">15 Seats</div>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="lh-24 f-bold d-color">Expresso </div>
+                                                        <div class="f-12 l-color">A/C Seater / Sleeper (2+2)</div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div>
+                                                        <div class="seat-fare">
+                                                            <div class="oldFare">
+                                                                <div class="fare"><i class="fa fa-inr" aria-hidden="true"></i>
+                                                                    <span class="f-bold f-19">470</span>
+                                                                </div>
+                                                                <span class="strike">500</span>
+                                                            </div>
+                                                            
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="rating-sec lh-24">
+                                                            <div class="lh-18 rating rat-red safety-star-rating-container">
+                                                                <i class="material-icons db-inline safety-star-rating">health_and_safety</i>
+                                                                <span class="">4.6</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="no-ppl lh-18 rating safety-star-rating-container">
+                                                            <i class="material-icons db-inline">people</i>
+                                                            5
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                </li>
+                            </div>        
+                            <div  class="m-row-sec">
+                                <li class="row-sec">
+                                    <div class="bus-item">
+                                        <div class="bus-item-details">
+                                            <div class="row-one">
+                                                <div>
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <div class="dp-time f-19 d-color f-bold">8:15 - </div>
+                                                        </div>
+                                                        <div>
+                                                            <div class="bp-time f-19 d-color disp-Inline">10:10</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <div class="dur">02h 10m - </div>
+                                                        </div>
+                                                        <div>
+                                                            <div class="seat-left">18 Seats</div>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="lh-24 f-bold d-color">JGD Travels Pvt Ltd. </div>
+                                                        <div class="f-12 l-color">A/C Seater / Sleeper (2)</div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div>
+                                                        <div class="seat-fare">
+                                                            <div class="oldFare">
+                                                                <div class="fare"><i class="fa fa-inr" aria-hidden="true"></i>
+                                                                    <span class="f-bold f-19">510</span>
+                                                                </div>
+                                                                <span class="strike">550</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="rating-sec lh-24">
+                                                            <div class="lh-18 rating rat-green safety-star-rating-container">
+                                                                <i class="material-icons db-inline safety-star-rating">health_and_safety</i>
+                                                                <span class="">2.9</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="no-ppl lh-18 rating safety-star-rating-container">
+                                                            <i class="material-icons db-inline">people</i>
+                                                            3
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                </li>
+                            </div>     
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+
+            
+            
+            
+        </div>
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="js/jquary.min.js"></script>
+
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.slimmenu.min.js"></script>
+
+        <script>
+            
+            $('.slimmenu').slimmenu({
+                resizeWidth: '767',
+                collapserTitle: '',
+                animSpeed:'medium',
+                indentChildren: true,
+                childrenIndenter: '<i class="fa fa-angle-right"></i>',
+            });
+            
+            // Close Effect Menu
+            $(function() {
+                $('.collapse-button').click(function() {
+                    $('.collapse-button').toggleClass('close-menu');
+                });
+            });
+
+        </script>    
+
+        <script src="js/custom.js"></script>
+    </body>
+</html>
